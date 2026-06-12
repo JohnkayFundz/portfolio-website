@@ -1,26 +1,39 @@
-```css
 body {
-    font-family: Arial, sans-serif;
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #0f172a;
+  color: white;
 }
 
-header {
-    text-align: center;
-    padding: 40px 0;
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #111827;
 }
 
 section {
-    margin-bottom: 40px;
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
 }
 
-h1 {
-    font-size: 2.5rem;
+h2 {
+  border-bottom: 2px solid #38bdf8;
+  padding-bottom: 5px;
+}
+
+.project-card {
+  background: #1e293b;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
 }
 
 a {
-    text-decoration: none;
+  color: #38bdf8;
 }
-```
