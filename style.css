@@ -1,0 +1,26 @@
+```css
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+```
