@@ -2,61 +2,1217 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>John Kalumba | Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="John Kalumba is a self-taught frontend developer and web designer who builds modern, responsive websites and web applications for businesses and individuals."
+  />
+
+  <meta
+    name="keywords"
+    content="John Kalumba, frontend developer, web developer, web designer, React developer, JavaScript developer, MERN developer, Nigeria"
+  />
+
+  <meta name="author" content="John Kalumba" />
+
+  <meta
+    property="og:title"
+    content="John Kalumba | Web Developer & Web Designer"
+  />
+
+  <meta
+    property="og:description"
+    content="I build modern websites and web applications that help businesses grow."
+  />
+
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:card" content="summary" />
+
+  <meta
+    name="twitter:title"
+    content="John Kalumba | Web Developer & Web Designer"
+  />
+
+  <meta
+    name="twitter:description"
+    content="I build modern websites and web applications that help businesses grow."
+  />
+
+  <title>John Kalumba | Web Developer & Web Designer</title>
+
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-  <!-- HERO SECTION -->
-  <header class="hero">
-    <h1>Hi, I'm John Kalumba 👋</h1>
-    <p>Self-taught developer building real-world projects with HTML, CSS & JavaScript.</p>
+  <!-- =========================================================
+       HEADER
+  ========================================================== -->
 
-    <div class="buttons">
-      <a href="#projects">View Projects</a>
-      <a href="https://github.com/JohnkayFundz" target="_blank">GitHub</a>
-    </div>
+  <header class="header">
+
+    <nav class="navbar container">
+
+      <a href="#home" class="logo">
+        John<span>Kalumba</span>
+      </a>
+
+      <button
+        type="button"
+        class="menu-toggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+      >
+        ☰
+      </button>
+
+      <ul class="nav-links" id="nav-menu">
+
+        <li>
+          <a href="#home">Home</a>
+        </li>
+
+        <li>
+          <a href="#about">About</a>
+        </li>
+
+        <li>
+          <a href="#services">Services</a>
+        </li>
+
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+
+        <li>
+          <a href="#process">Process</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+
+      </ul>
+
+    </nav>
+
   </header>
 
-  <!-- ABOUT -->
-  <section class="section">
-    <h2>About Me</h2>
-    <p>
-      I enjoy building simple but useful web applications and improving my coding skills every day.
-      My focus is on frontend development and real project building.
-    </p>
-  </section>
 
-  <!-- PROJECTS -->
-  <section id="projects" class="section">
-    <h2>Projects</h2>
+  <!-- =========================================================
+       MAIN CONTENT
+  ========================================================== -->
 
-    <div class="grid">
+  <main>
 
-      <div class="card">
-        <h3>Portfolio Website</h3>
-        <p>My personal portfolio built with HTML and CSS.</p>
+
+    <!-- =======================================================
+         HERO
+    ======================================================== -->
+
+    <section class="hero section" id="home">
+
+      <div class="container hero-content">
+
+        <p class="eyebrow">
+          WEB DEVELOPER • WEB DESIGNER
+        </p>
+
+        <h1>
+          I Build Modern Websites
+          <span>That Help Businesses Grow.</span>
+        </h1>
+
+        <p class="hero-intro">
+          Hi, I'm <strong>John Kalumba</strong> — a self-taught web developer
+          and designer focused on creating modern, responsive, and
+          user-friendly digital experiences.
+        </p>
+
+        <p class="hero-description">
+          I help businesses and individuals turn ideas into professional
+          websites, online stores, landing pages, and web applications
+          that look great, work smoothly, and make it easier for customers
+          to take action.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a
+            href="#projects"
+            class="btn btn-primary"
+          >
+            View My Work
+          </a>
+
+          <a
+            href="#contact"
+            class="btn btn-secondary"
+          >
+            Let's Work Together
+          </a>
+
+        </div>
+
+        <div class="hero-trust">
+
+          <span>
+            ✓ Responsive Design
+          </span>
+
+          <span>
+            ✓ Modern Technologies
+          </span>
+
+          <span>
+            ✓ Business-Focused Solutions
+          </span>
+
+        </div>
+
+        <div class="social-links">
+
+          <a
+            href="https://github.com/JohnkayFundz"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit my GitHub profile"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/john-kalumba-96b437323/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit my LinkedIn profile"
+          >
+            LinkedIn
+          </a>
+
+        </div>
+
       </div>
 
-      <div class="card">
-        <h3>Expense Tracker</h3>
-        <p>A simple JavaScript app to track income and expenses.</p>
+    </section>
+
+
+    <!-- =======================================================
+         ABOUT
+    ======================================================== -->
+
+    <section class="section" id="about">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <p class="eyebrow">
+            ABOUT ME
+          </p>
+
+          <h2>
+            Building Digital Experiences That Work
+          </h2>
+
+        </div>
+
+        <div class="about-content">
+
+          <p>
+            I'm a self-taught web developer and designer passionate about
+            creating clean, responsive, and user-friendly digital experiences.
+          </p>
+
+          <p>
+            I enjoy turning ideas into functional websites and applications
+            using modern frontend and full-stack technologies.
+          </p>
+
+          <p>
+            My focus is not just on making websites look good, but on creating
+            experiences that are easy to use, professional, and useful for the
+            people and businesses they serve.
+          </p>
+
+          <a
+            href="resume.pdf"
+            class="btn btn-secondary"
+            download
+          >
+            Download Resume
+          </a>
+
+        </div>
+
       </div>
+
+    </section>
+
+
+    <!-- =======================================================
+         SERVICES
+    ======================================================== -->
+
+    <section class="section" id="services">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <p class="eyebrow">
+            WHAT I DO
+          </p>
+
+          <h2>
+            Services
+          </h2>
+
+          <p>
+            Practical web solutions designed around your goals and audience.
+          </p>
+
+        </div>
+
+        <div class="services-grid">
+
+          <article class="card service-card">
+
+            <h3>
+              Business Websites
+            </h3>
+
+            <p>
+              Professional websites that help businesses establish credibility,
+              showcase their services, and make it easier for customers to get
+              in touch.
+            </p>
+
+          </article>
+
+
+          <article class="card service-card">
+
+            <h3>
+              E-Commerce Websites
+            </h3>
+
+            <p>
+              Modern online stores with product browsing, search, shopping
+              carts, checkout experiences, and other essential e-commerce
+              features.
+            </p>
+
+          </article>
+
+
+          <article class="card service-card">
+
+            <h3>
+              Landing Pages
+            </h3>
+
+            <p>
+              Focused landing pages designed to communicate an offer clearly
+              and encourage visitors to take action.
+            </p>
+
+          </article>
+
+
+          <article class="card service-card">
+
+            <h3>
+              Web Applications
+            </h3>
+
+            <p>
+              Interactive web applications built to solve specific problems
+              with practical functionality and responsive interfaces.
+            </p>
+
+          </article>
+
+
+          <article class="card service-card">
+
+            <h3>
+              Website Maintenance
+            </h3>
+
+            <p>
+              Updates, improvements, bug fixes, content changes, and ongoing
+              support to keep websites useful and reliable.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =======================================================
+         PROJECTS
+    ======================================================== -->
+
+    <section class="section" id="projects">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <p class="eyebrow">
+            SELECTED WORK
+          </p>
+
+          <h2>
+            Projects
+          </h2>
+
+          <p>
+            A selection of websites and applications I've designed and built.
+          </p>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+          <!-- =================================================
+               TECHSTORE PRO
+          ================================================== -->
+
+          <article class="card project-card featured-project">
+
+            <div class="project-content">
+
+              <div class="project-header">
+
+                <div>
+
+                  <p class="project-category">
+                    FEATURED PROJECT • FULL-STACK E-COMMERCE
+                  </p>
+
+                  <h3>
+                    TechStore Pro
+                  </h3>
+
+                </div>
+
+                <span class="project-badge">
+                  Flagship
+                </span>
+
+              </div>
+
+
+              <p class="project-description">
+                A full-stack e-commerce platform designed to demonstrate how
+                a modern online store can manage products, customers, shopping
+                carts, orders, and administration from one complete system.
+              </p>
+
+
+              <p class="project-description">
+                The platform provides customers with a smooth shopping
+                experience while giving administrators the tools needed to
+                manage products, users, and orders efficiently.
+              </p>
+
+
+              <div class="project-features">
+
+                <div class="feature-item">
+
+                  <strong>
+                    Customer Experience
+                  </strong>
+
+                  <span>
+                    Browse, search, filter, add products to cart, checkout,
+                    and view order history.
+                  </span>
+
+                </div>
+
+
+                <div class="feature-item">
+
+                  <strong>
+                    Authentication
+                  </strong>
+
+                  <span>
+                    Secure user registration, login, protected routes,
+                    and account management.
+                  </span>
+
+                </div>
+
+
+                <div class="feature-item">
+
+                  <strong>
+                    Admin Dashboard
+                  </strong>
+
+                  <span>
+                    Product CRUD, order management, and user management.
+                  </span>
+
+                </div>
+
+
+                <div class="feature-item">
+
+                  <strong>
+                    Backend Architecture
+                  </strong>
+
+                  <span>
+                    REST API powered by Node.js, Express, and MongoDB.
+                  </span>
+
+                </div>
+
+              </div>
+
+
+              <div class="project-tech">
+
+                <span>React</span>
+                <span>React Router</span>
+                <span>Context API</span>
+                <span>Axios</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>MongoDB</span>
+                <span>Mongoose</span>
+                <span>Cloudinary</span>
+
+              </div>
+
+
+              <div class="project-links">
+
+                <a
+                  href="https://techstore-pro-two.vercel.app/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo
+                </a>
+
+                <a
+                  href="https://github.com/JohnkayFundz"
+                  class="btn btn-secondary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Code
+                </a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- =================================================
+               GBEMI'S CLOSET
+          ================================================== -->
+
+          <article class="card project-card">
+
+            <div class="project-content">
+
+              <p class="project-category">
+                BUSINESS WEBSITE • FASHION E-COMMERCE
+              </p>
+
+              <h3>
+                Gbemi’s Closet
+              </h3>
+
+              <p class="project-description">
+                A premium responsive fashion storefront designed for a
+                Lagos-based women's fashion brand, featuring curated product
+                collections, category browsing, product details, and direct
+                WhatsApp ordering.
+              </p>
+
+
+              <div class="project-features">
+
+                <div class="feature-item">
+
+                  <strong>
+                    Product Experience
+                  </strong>
+
+                  <span>
+                    Browse curated fashion collections across gowns,
+                    two-piece sets, jeans, tops, bags, slides, and
+                    accessories.
+                  </span>
+
+                </div>
+
+
+                <div class="feature-item">
+
+                  <strong>
+                    Customer Experience
+                  </strong>
+
+                  <span>
+                    Responsive browsing, category navigation, product
+                    details, and clear calls to action.
+                  </span>
+
+                </div>
+
+
+                <div class="feature-item">
+
+                  <strong>
+                    WhatsApp Ordering
+                  </strong>
+
+                  <span>
+                    Customers can quickly contact the business to ask
+                    questions and order products through WhatsApp.
+                  </span>
+
+                </div>
+
+              </div>
+
+
+              <div class="project-tech">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Responsive Design</span>
+                <span>WhatsApp Integration</span>
+
+              </div>
+
+
+              <div class="project-links">
+
+                <a
+                  href="https://electrohub-sales-dem-qw7f.bolt.host/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo
+                </a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- =================================================
+               ELECTROHUB
+          ================================================== -->
+
+          <article class="card project-card">
+
+            <div class="project-content">
+
+              <p class="project-category">
+                BUSINESS WEBSITE
+              </p>
+
+              <h3>
+                ElectroHub
+              </h3>
+
+              <p class="project-description">
+                A modern electronics business website concept designed to
+                present products in a clean, organized catalogue and make it
+                easier for customers to discover products and take action.
+              </p>
+
+              <div class="project-tech">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Responsive Design</span>
+
+              </div>
+
+              <div class="project-links">
+
+                <a
+                  href="https://electrohub-electroni-epnq.bolt.host/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo
+                </a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- =================================================
+               SMART FINANCE DASHBOARD
+          ================================================== -->
+
+          <article class="card project-card">
+
+            <div class="project-content">
+
+              <p class="project-category">
+                WEB APPLICATION
+              </p>
+
+              <h3>
+                Smart Finance Dashboard
+              </h3>
+
+              <p class="project-description">
+                A responsive finance dashboard interface designed to organize
+                financial information into a clean and easy-to-understand
+                visual experience.
+              </p>
+
+              <div class="project-tech">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Dashboard UI</span>
+
+              </div>
+
+              <div class="project-links">
+
+                <a
+                  href="https://johnkayfundz.github.io/Smart-Finance-Dashboard/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo
+                </a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- =================================================
+               EXPENSE TRACKER
+          ================================================== -->
+
+          <article class="card project-card">
+
+            <div class="project-content">
+
+              <p class="project-category">
+                JAVASCRIPT APPLICATION
+              </p>
+
+              <h3>
+                Expense Tracker
+              </h3>
+
+              <p class="project-description">
+                A simple JavaScript application that helps users record and
+                manage expenses through a clean and straightforward interface.
+              </p>
+
+              <div class="project-tech">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+
+              </div>
+
+              <div class="project-links">
+
+                <a
+                  href="https://github.com/JohnkayFundz"
+                  class="btn btn-secondary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Code
+                </a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =======================================================
+         SKILLS
+    ======================================================== -->
+
+    <section class="section" id="skills">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <p class="eyebrow">
+            TECHNOLOGY
+          </p>
+
+          <h2>
+            Skills
+          </h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>React Router</span>
+          <span>Node.js</span>
+          <span>Express</span>
+          <span>MongoDB</span>
+          <span>Mongoose</span>
+          <span>REST APIs</span>
+          <span>Git</span>
+          <span>GitHub</span>
+          <span>Vite</span>
+          <span>Axios</span>
+          <span>Cloudinary</span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =======================================================
+         PROCESS
+    ======================================================== -->
+
+    <section class="section" id="process">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <p class="eyebrow">
+            HOW I WORK
+          </p>
+
+          <h2>
+            My Process
+          </h2>
+
+          <p>
+            A simple process focused on understanding the goal and delivering
+            a useful final product.
+          </p>
+
+        </div>
+
+
+        <div class="process-grid">
+
+
+          <article class="card process-card">
+
+            <span>01</span>
+
+            <h3>
+              Understand
+            </h3>
+
+            <p>
+              Learn about the business, audience, goals, and requirements.
+            </p>
+
+          </article>
+
+
+          <article class="card process-card">
+
+            <span>02</span>
+
+            <h3>
+              Plan
+            </h3>
+
+            <p>
+              Structure the content, features, user experience, and technical
+              approach.
+            </p>
+
+          </article>
+
+
+          <article class="card process-card">
+
+            <span>03</span>
+
+            <h3>
+              Build
+            </h3>
+
+            <p>
+              Design and develop the website or application using appropriate
+              technologies.
+            </p>
+
+          </article>
+
+
+          <article class="card process-card">
+
+            <span>04</span>
+
+            <h3>
+              Test
+            </h3>
+
+            <p>
+              Check responsiveness, functionality, usability, and overall
+              quality.
+            </p>
+
+          </article>
+
+
+          <article class="card process-card">
+
+            <span>05</span>
+
+            <h3>
+              Launch
+            </h3>
+
+            <p>
+              Deploy the finished project and make sure it is ready for real
+              users.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =======================================================
+         CTA
+    ======================================================== -->
+
+    <section class="section cta-section">
+
+      <div class="container">
+
+        <div class="cta card">
+
+          <p class="eyebrow">
+            HAVE A PROJECT IN MIND?
+          </p>
+
+          <h2>
+            Let's Build Something Great Together
+          </h2>
+
+          <p>
+            Whether you need a business website, online store, landing page,
+            or custom web application, let's turn your idea into a professional
+            digital experience.
+          </p>
+
+          <a
+            href="#contact"
+            class="btn btn-primary"
+          >
+            Start a Project
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =======================================================
+         CONTACT
+    ======================================================== -->
+
+    <section class="section" id="contact">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <p class="eyebrow">
+            GET IN TOUCH
+          </p>
+
+          <h2>
+            Contact Me
+          </h2>
+
+          <p>
+            Have a project or opportunity? I'd love to hear from you.
+          </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+
+          <!-- EMAIL -->
+
+          <a
+            href="mailto:deejayjohnkay@gmail.com"
+            class="card contact-card"
+          >
+
+            <h3>
+              Email
+            </h3>
+
+            <p>
+              deejayjohnkay@gmail.com
+            </p>
+
+          </a>
+
+
+          <!-- WHATSAPP -->
+
+          <a
+            href="https://wa.me/2348188840165"
+            class="card contact-card"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+
+            <h3>
+              WhatsApp
+            </h3>
+
+            <p>
+              Let's chat
+            </p>
+
+          </a>
+
+
+          <!-- GITHUB -->
+
+          <a
+            href="https://github.com/JohnkayFundz"
+            class="card contact-card"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+
+            <h3>
+              GitHub
+            </h3>
+
+            <p>
+              View my projects
+            </p>
+
+          </a>
+
+
+          <!-- LINKEDIN -->
+
+          <a
+            href="https://www.linkedin.com/in/john-kalumba-96b437323/"
+            class="card contact-card"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+
+            <h3>
+              LinkedIn
+            </h3>
+
+            <p>
+              Connect with me
+            </p>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================================================
+       FOOTER
+  ========================================================== -->
+
+  <footer class="footer">
+
+    <div class="container">
+
+      <p>
+        © 2026 John Kalumba. All rights reserved.
+      </p>
+
+      <p>
+        Built with HTML, CSS & JavaScript.
+      </p>
 
     </div>
-  </section>
 
-  <!-- CONTACT -->
-  <section class="section">
-    <h2>Contact</h2>
-    <p>GitHub: <a href="https://github.com/JohnkayFundz">JohnkayFundz</a></p>
-  </section>
-
-  <footer>
-    <p>© 2026 John Kalumba</p>
   </footer>
+
+
+  <!-- =========================================================
+       MOBILE NAVIGATION JAVASCRIPT
+  ========================================================== -->
+
+  <script>
+
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+
+    if (menuToggle && navLinks) {
+
+
+      /* =======================================================
+         TOGGLE MOBILE MENU
+      ======================================================== */
+
+      menuToggle.addEventListener("click", () => {
+
+        const isActive = navLinks.classList.toggle("active");
+
+        menuToggle.setAttribute(
+          "aria-expanded",
+          String(isActive)
+        );
+
+        menuToggle.setAttribute(
+          "aria-label",
+          isActive
+            ? "Close navigation menu"
+            : "Open navigation menu"
+        );
+
+        menuToggle.textContent = isActive ? "×" : "☰";
+
+      });
+
+
+      /* =======================================================
+         CLOSE MENU AFTER CLICKING A NAVIGATION LINK
+      ======================================================== */
+
+      document
+        .querySelectorAll(".nav-links a")
+        .forEach((link) => {
+
+          link.addEventListener("click", () => {
+
+            navLinks.classList.remove("active");
+
+            menuToggle.setAttribute(
+              "aria-expanded",
+              "false"
+            );
+
+            menuToggle.setAttribute(
+              "aria-label",
+              "Open navigation menu"
+            );
+
+            menuToggle.textContent = "☰";
+
+          });
+
+        });
+
+
+      /* =======================================================
+         CLOSE MENU WHEN RETURNING TO DESKTOP
+      ======================================================== */
+
+      window.addEventListener("resize", () => {
+
+        if (window.innerWidth > 700) {
+
+          navLinks.classList.remove("active");
+
+          menuToggle.setAttribute(
+            "aria-expanded",
+            "false"
+          );
+
+          menuToggle.setAttribute(
+            "aria-label",
+            "Open navigation menu"
+          );
+
+          menuToggle.textContent = "☰";
+
+        }
+
+      });
+
+    }
+
+  </script>
 
 </body>
 </html>
