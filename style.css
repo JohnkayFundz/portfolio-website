@@ -1957,3 +1957,138 @@ h1, h2 {
 .cta {
   border-color: rgba(198,161,91,.20);
 }
+
+
+/* =========================================================
+   CONVERSION-FOCUSED PORTFOLIO UPGRADE
+========================================================= */
+
+.site-header {
+  background: rgba(13, 23, 19, 0.92);
+  border-bottom-color: rgba(198, 161, 91, 0.16);
+}
+
+.hero {
+  background:
+    linear-gradient(180deg, rgba(198, 161, 91, 0.025), transparent 42%);
+}
+
+.hero-content {
+  max-width: 920px;
+}
+
+.hero h1 {
+  max-width: 900px;
+  font-size: clamp(3.25rem, 7vw, 6rem);
+  line-height: 0.96;
+}
+
+.hero-intro {
+  font-size: clamp(1.1rem, 2vw, 1.28rem);
+}
+
+.hero-buttons {
+  margin-top: 8px;
+}
+
+.hero-buttons .btn-primary {
+  min-width: 190px;
+}
+
+.hero-trust {
+  padding-top: 4px;
+}
+
+.services-grid {
+  align-items: stretch;
+}
+
+.service-card {
+  min-height: 235px;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card p:first-of-type {
+  margin: 2px 0 14px;
+  color: var(--primary-light);
+  font-size: 1.05rem;
+  font-weight: 800;
+}
+
+.service-card p:last-child {
+  margin-top: auto;
+}
+
+.project-card {
+  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.18);
+}
+
+.project-category {
+  letter-spacing: 0.14em;
+}
+
+.project-content h3 {
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+}
+
+.project-description {
+  max-width: 62ch;
+}
+
+.feature-item {
+  background: rgba(198, 161, 91, 0.025);
+}
+
+.cta {
+  padding: 82px 40px;
+  border-color: rgba(198, 161, 91, 0.28);
+  background:
+    radial-gradient(circle at 50% 0%, rgba(198,161,91,.10), transparent 45%),
+    linear-gradient(145deg, rgba(198,161,91,.08), rgba(155,122,61,.025));
+}
+
+.cta h2 {
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+.contact-grid {
+  gap: 18px;
+}
+
+.contact-card {
+  min-height: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-card h3 {
+  color: var(--primary-light);
+}
+
+.footer {
+  background: #07100c;
+  border-top-color: rgba(198,161,91,.16);
+}
+
+@media (max-width: 700px) {
+  .hero h1 {
+    font-size: clamp(2.75rem, 13vw, 4.15rem);
+  }
+
+  .service-card {
+    min-height: 0;
+  }
+
+  .cta {
+    padding: 58px 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2.65rem;
+  }
+}
